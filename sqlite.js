@@ -78,7 +78,7 @@ function createPromiseRuntime() {
       return promise;
     }
   });
-  plugin.log("Promise based runtime ready");
+  console.log("Promise based runtime ready");
 }
 SQLiteFactory.prototype.enablePromise = enablePromiseRuntime;
 
