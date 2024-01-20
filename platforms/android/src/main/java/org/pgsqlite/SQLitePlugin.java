@@ -32,12 +32,12 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.Callback;
 
-import net.sqlcipher.Cursor;
-import net.sqlcipher.CursorWindow;
-import net.sqlcipher.database.SQLiteCursor;
-import net.sqlcipher.database.SQLiteDatabase;
-import net.sqlcipher.database.SQLiteException;
-import net.sqlcipher.database.SQLiteStatement;
+import android.database.Cursor;
+import android.database.CursorWindow;
+import net.zetetic.database.sqlcipher.SQLiteCursor;
+import net.zetetic.database.sqlcipher.SQLiteDatabase;
+import net.zetetic.database.sqlcipher.SQLiteException;
+import net.zetetic.database.sqlcipher.SQLiteStatement;
 
 import org.json.JSONException;
 import org.json.JSONArray;
